@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-os.environ['API_KEY'] = "AIzaSyDQkU1_oF9wOrNgNGgg4C822UFvfXYI2N0"
+os.environ['API_KEY'] = ""
 genai.configure(api_key=os.environ['API_KEY'])
 
 response = genai.chat(messages=[

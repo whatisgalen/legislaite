@@ -2,8 +2,8 @@ import spacy
 import os
 import time
 import google.generativeai as genai
-os.environ['G_API_KEY'] = "AIzaSyDQkU1_oF9wOrNgNGgg4C822UFvfXYI2N0"
-os.environ['P_API_KEY'] = "13f78aa3-99c3-45a7-b0f7-ee636e5161de"
+os.environ['G_API_KEY'] = ""
+os.environ['P_API_KEY'] = ""
 genai.configure(api_key=os.environ['G_API_KEY'])
 # import pprint
 # for model in genai.list_models():

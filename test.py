@@ -1,6 +1,6 @@
 import pinecone
 
-API_KEY = "13f78aa3-99c3-45a7-b0f7-ee636e5161de"
+API_KEY = ""
 
 # pinecone.init(api_key=API_KEY, environment="production")
 # pinecone.create_index("quickstart", dimension=8, metric="euclidean")
